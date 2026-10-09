@@ -1,9 +1,9 @@
-import pandas as pd
+imДанные о жилье, сдающемся на сервисе Airbnb в Нью-Йорке за 2019 год.port pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 
 # Kaggle Dataset URL: https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data/data?select=AB_NYC_2019.csv
-
+# Данные о жилье, сдающемся на сервисе Airbnb в Нью-Йорке за 2019 год. 47906 unique values
 # Загрузка данных
 
 print("*" * 50, "\n Import and display data \n", "*" * 50 )
