@@ -1,4 +1,5 @@
-imДанные о жилье, сдающемся на сервисе Airbnb в Нью-Йорке за 2019 год.port pandas as pd
+#Данные о жилье, сдающемся на сервисе Airbnb в Нью-Йорке за 2019 год.
+import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 
